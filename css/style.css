@@ -125,6 +125,7 @@ input.button:active {
   #main h2 { font-size: 34px; }
   #main p { margin: 1em 15% 2em; font-size: .82em; }
   #main .logo { height: 70px; }
+  #flowing { margin: 0 0 1em; }
 
   div.mc-field-group input[type="email"] { font-size: 12px; width: 180px; }
   input.button { font-size: 12px; }

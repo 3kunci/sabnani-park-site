@@ -5,6 +5,8 @@
   src: url("../font/bebas.ttf");
 }
 
+* { margin: 0; padding: 0; }
+
 html {
   background: url(../images/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -14,10 +16,8 @@ html {
 }
 
 #main {
-  width: 100%;
-  position: fixed;
-  top: 8em;
-  left: 0;
+  width: 800px;
+  margin: 10em auto 20px;
 
   /* text attributes */
   font-family: 'Montserrat', sans-serif;
@@ -44,7 +44,7 @@ html {
   text-shadow: 0 4px 8px rgba(20,20,20,.6);
 }
 
-#main p { margin: 1em 26% 2em;}
+#main p { margin: 1em 60px 2em;}
 #flowing { margin: 0 0 5.6em; }
 
 /* Styling Mailchimp's Signup Form */
@@ -122,10 +122,10 @@ input.button:active {
 /* Small Screens */
 
 @media all and (max-width: 700px) {
-  #main { top: 0;}
+  #main { width: 100%; margin: 40px auto 20px}
   #main h2 { font-size: 26px; margin: 10px 0 0;}
-  #main p { margin: 1em 15% 2em; font-size: .82em; }
-  #main .logo { height: 45px; margin-bottom: 0; }
+  #main p { margin: 1em 10% 2em; font-size: .82em; }
+  #main .logo { height: 60px; margin-bottom: 0; }
   #flowing { margin: 0 0 0em; }
 
   div.mc-field-group input[type="email"] { font-size: 12px; width: 180px; }

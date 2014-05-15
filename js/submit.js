@@ -23,7 +23,7 @@ function register($form) {
         errorMessage(data.msg.substring(4));
       }
       else {
-        successMessage(data.msg);
+        successMessage("Almost done, please confirm your email.");
         $('#mce-EMAIL').val('');
       }
     }

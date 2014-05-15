@@ -16,7 +16,7 @@ html {
 #main {
   width: 100%;
   position: fixed;
-  bottom: 2em;
+  top: 8em;
   left: 0;
 
   /* text attributes */
@@ -122,10 +122,11 @@ input.button:active {
 /* Small Screens */
 
 @media all and (max-width: 700px) {
-  #main h2 { font-size: 34px; }
+  #main { top: 0;}
+  #main h2 { font-size: 26px; margin: 35px 0 0;}
   #main p { margin: 1em 15% 2em; font-size: .82em; }
   #main .logo { height: 70px; }
-  #flowing { margin: 0 0 1em; }
+  #flowing { margin: 0 0 0em; }
 
   div.mc-field-group input[type="email"] { font-size: 12px; width: 180px; }
   input.button { font-size: 12px; }

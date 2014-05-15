@@ -123,9 +123,9 @@ input.button:active {
 
 @media all and (max-width: 700px) {
   #main { top: 0;}
-  #main h2 { font-size: 26px; margin: 35px 0 0;}
+  #main h2 { font-size: 26px; margin: 10px 0 0;}
   #main p { margin: 1em 15% 2em; font-size: .82em; }
-  #main .logo { height: 70px; }
+  #main .logo { height: 60px; margin-bottom: 0; }
   #flowing { margin: 0 0 0em; }
 
   div.mc-field-group input[type="email"] { font-size: 12px; width: 180px; }
